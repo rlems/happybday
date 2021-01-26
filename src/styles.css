@@ -27,6 +27,7 @@ body {
 .content {
   position: absolute;
   width: 400px;
+  padding: 10px;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -42,4 +43,24 @@ h1 {
 p {
   color: #3f93ff;
   font-size: 18px;
+}
+
+.startPartyButton {
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 15px;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  transition: background-color 300ms;
+  cursor: pointer;
+}
+
+.startPartyButton:hover {
+    background-color: red;
 }
